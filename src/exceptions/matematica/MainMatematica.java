@@ -24,23 +24,10 @@ public class MainMatematica
 
         if (operacion == 1)
         {
-            try
-            {
-                System.out.printf("El resultado es: %d%n", operador.sumarPositivos(num1, num2));
-            }
-            catch(InvalidNumberException ine)
-            {
-                System.err.println(ine.getMessage());
-            }
+            System.out.printf("El resultado es: %d%n", operador.sumarPositivos(num1, num2));
         }
         else {
-            try {
-                System.out.printf("El resultado es: %d%n", operador.divisionEntera(num1, num2));
-            }
-            catch(ArithmeticException ae)
-            {
-                System.err.println(ae.getMessage());
-            }
+            System.out.printf("El resultado es: %d%n", operador.divisionEntera(num1, num2));
         }
     }
 }

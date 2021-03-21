@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9461e60-22ae-4f03-ad80-27629b0967b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ciudadano/Ciudadano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ciudadano/InvalidInfoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ciudadano/MainCiudadano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/matematica/InvalidNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/matematica/MainMatematica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/matematica/Matematica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ManejoExcepciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PruebaThrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PruebaTryCatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/matematica/InvalidNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/matematica/InvalidNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/matematica/MainMatematica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/matematica/MainMatematica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +44,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainMatematica">
+  <component name="RunManager" selected="Application.MainCiudadano">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TareaExtraclase-1" />
@@ -95,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainMatematica" />
         <item itemvalue="Application.MainCiudadano" />
+        <item itemvalue="Application.MainMatematica" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ManejoExcepciones" />
         <item itemvalue="Application.PruebaThrow" />

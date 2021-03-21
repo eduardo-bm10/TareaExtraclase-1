@@ -4,7 +4,7 @@ package exceptions.matematica;
 //Carne: 2020158103
 
 //Excepcion personalizada que verifica la naturaleza de un numero
-public class InvalidNumberException extends Exception
+public class InvalidNumberException extends RuntimeException
 {
     public InvalidNumberException(String message)
     {

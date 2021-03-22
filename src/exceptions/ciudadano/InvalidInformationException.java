@@ -4,10 +4,10 @@ package exceptions.ciudadano;
 //Carne: 2020158103
 
 //Excepcion que verifica la edad de una persona
-public class InvalidInfoException extends Exception
+public class InvalidInformationException extends Exception
 {
     //Constructor
-    public InvalidInfoException(String message)
+    public InvalidInformationException(String message)
     {
         super(message);//Se llama al constructor de la clase padre Exception
     }

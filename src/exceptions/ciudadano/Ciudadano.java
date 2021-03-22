@@ -9,18 +9,20 @@ public class Ciudadano
     int age;
     int id;
 
+    //Constructor que inicializa un objeto Ciudadano
     public Ciudadano(String name, int age, int id)
     {
         this.name = name;
         this.age = age;
         this.id = id;
     }
-    public void changeInfo(String nuevoNombre, int nuevaEdad, int nuevoID) throws InvalidInfoException
+    //Cambia los atributos del ciudadano
+    public void changeInfo(String nuevoNombre, int nuevaEdad, int nuevoID) throws InvalidInformationException
     {
         if (nuevaEdad < 0)
-            throw new InvalidInfoException("La edad proporcionada es invalida");
+            throw new InvalidInformationException("La edad proporcionada es invalida");
         else if (nuevoID < 10000)
-            throw new InvalidInfoException("El ID proporcionado es invalido");
+            throw new InvalidInformationException("El ID proporcionado es invalido");
         else
         {
             name = nuevoNombre;

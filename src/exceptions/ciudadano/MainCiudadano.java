@@ -11,7 +11,6 @@ public class MainCiudadano
     {
         Ciudadano ciudadano1 = new Ciudadano("Eduardo", 19, 2020158103);
         Scanner entrada = new Scanner(System.in);
-
         System.out.printf("El ciudadano1 se llama %s, tiene %d años y su ID es %d%n", ciudadano1.name, ciudadano1.age, ciudadano1.id);
 
         System.out.print("Escriba el nuevo nombre: ");
@@ -25,7 +24,7 @@ public class MainCiudadano
         {
             ciudadano1.changeInfo(nuevoNombre, nuevaEdad, nuevoID);
         }
-        catch(InvalidInfoException iie)
+        catch(InvalidInformationException iie)
         {
             System.err.println(iie.getMessage());
         }

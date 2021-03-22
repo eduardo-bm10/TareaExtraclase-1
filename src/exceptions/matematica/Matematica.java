@@ -9,6 +9,7 @@ public class Matematica
 {
     int resultado;
 
+    //Realiza una suma de dos numeros positivos
     public int sumarPositivos(int numero1, int numero2) throws InvalidNumberException
     {
         if (numero1 < 0)
@@ -17,8 +18,20 @@ public class Matematica
             throw new InvalidNumberException("No ingreso un numero positivo");
         else
             return resultado = numero1 + numero2;
-
     }
+    //Realiza una multiplicacion de dos numeros
+    public int multiplicacion(int numero1, int numero2)
+    {
+        if (numero1 < 0 || numero2 < 0)
+        {
+            throw new IllegalArgumentException("Los argumentos deben ser positivos");
+        }
+        else {
+            resultado = numero1 * numero2;
+            return resultado;
+        }
+    }
+    //Realiza division entre dos numeros
     public int divisionEntera(int numerador, int denominador)
     {
         if (denominador == 0)
